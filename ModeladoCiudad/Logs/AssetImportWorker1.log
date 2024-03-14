@@ -1,29 +1,37 @@
+Unity Editor version:    2023.2.10f1 (316c1fd686f6)
+Branch:                  2023.2/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4 (Build 23E214)
+Darwin version:          23.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2023.2/release' branch; Version is '2023.2.10f1 (316c1fd686f6) revision 3238943'; Using compiler version '193431935'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 16217 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
+2024-03-13 20:46:30.335 Unity[17285:744726] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2023.2.10f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2023.2.10f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/diego/Desktop/Nuevo proyecto unity/sockets
+/Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58918
+58855
 -job-worker-count
-7
+3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/diego/Desktop/Nuevo proyecto unity/sockets
-C:/Users/diego/Desktop/Nuevo proyecto unity/sockets
+Successfully changed project path to: /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad
+/Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,76 +66,75 @@ C:/Users/diego/Desktop/Nuevo proyecto unity/sockets
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [37384] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2879270364 [EditorId] 2879270364 [Version] 1048832 [Id] WindowsEditor(7,PC-DIEGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [37384] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2879270364 [EditorId] 2879270364 [Version] 1048832 [Id] WindowsEditor(7,PC-DIEGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Player connection [140704263442688] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 502514291 [EditorId] 502514291 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Omar.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704263442688] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 502514291 [EditorId] 502514291 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Omar.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.10f1 (316c1fd686f6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/diego/Desktop/Nuevo proyecto unity/sockets/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
-    Vendor:   NVIDIA
-    VRAM:     12129 MB
-    Driver:   31.0.15.4633
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2023.2.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56285
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001803 seconds.
-- Loaded All Assemblies, in  0.386 seconds
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002385 seconds.
+- Loaded All Assemblies, in  1.089 seconds
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.268 seconds
-Domain Reload Profiling: 653ms
-	BeginReloadAssembly (137ms)
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  0.931 seconds
+Domain Reload Profiling: 2022ms
+	BeginReloadAssembly (314ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (136ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (146ms)
+	LoadAllAssembliesAndSetupDomain (515ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (508ms)
+			TypeCache.Refresh (502ms)
+				TypeCache.ScanAssembly (458ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (269ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (933ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (226ms)
+		SetupLoadedEditorAssemblies (761ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,126 +143,2465 @@ Domain Reload Profiling: 653ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\diego\Desktop\Nuevo proyecto unity\sockets\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\diego\Desktop\Nuevo proyecto unity\sockets\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.712 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.929 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.463 seconds
-Domain Reload Profiling: 1173ms
-	BeginReloadAssembly (291ms)
+- Finished resetting the current domain, in  1.663 seconds
+Domain Reload Profiling: 3593ms
+	BeginReloadAssembly (649ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (346ms)
-		LoadAssemblies (285ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1097ms)
+		LoadAssemblies (779ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (109ms)
-			BuildScriptInfoCaches (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (463ms)
+		AnalyzeDomain (460ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (344ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
+		SetupLoadedEditorAssemblies (1240ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (1033ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3499 unused Assets / (1.3 MB). Loaded Objects now: 4101.
-Memory consumption went from 136.0 MB to 134.7 MB.
-Total: 4.974700 ms (FindLiveObjects: 0.378500 ms CreateObjectMapping: 0.306800 ms MarkObjects: 3.196900 ms  DeleteObjects: 1.091500 ms)
+Unloading 3497 unused Assets / (1.1 MB). Loaded Objects now: 4084.
+Memory consumption went from 131.1 MB to 130.0 MB.
+Total: 12.995628 ms (FindLiveObjects: 0.814983 ms CreateObjectMapping: 0.511983 ms MarkObjects: 9.041168 ms  DeleteObjects: 2.625740 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1148709.344349 seconds.
-  path: Assets/Studio Horizon/Simple Building Generic Free/Prefabs/School.prefab
-  artifactKey: Guid(8bf27f8a5975e1f4e9160e979cfcb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio Horizon/Simple Building Generic Free/Prefabs/School.prefab using Guid(8bf27f8a5975e1f4e9160e979cfcb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3a7075f152e22bebaa269dc82f0595c') in 0.1089251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 39641.786630 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Blossom_Leaves_Colored.mat
+  artifactKey: Guid(4bd7e986d44326e4f93873b55e6c1254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Blossom_Leaves_Colored.mat using Guid(4bd7e986d44326e4f93873b55e6c1254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '243fb5bc0c46bc45100da6678b45c5d1') in 0.310305781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Studio Horizon/Simple Building Generic Free/Prefabs/Fire_Station.prefab
-  artifactKey: Guid(e478292f536a7134e8e48cb62cf2be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio Horizon/Simple Building Generic Free/Prefabs/Fire_Station.prefab using Guid(e478292f536a7134e8e48cb62cf2be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12a502d30a50e630b728c4617a7ed21f') in 0.0133303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000121 seconds.
+  path: Assets/Architecture textures pack/Bricks red rough/Bricks red rough Mat.mat
+  artifactKey: Guid(1be9c00b9cbe1634789ef7ce9cc53038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Bricks red rough/Bricks red rough Mat.mat using Guid(1be9c00b9cbe1634789ef7ce9cc53038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1969677bf1861af28ec37e6ab5fe81a0') in 0.035985082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Studio Horizon/Simple Building Generic Free/Prefabs/Workshop.prefab
-  artifactKey: Guid(dca6cf054ebcb5349a8333d108c74279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio Horizon/Simple Building Generic Free/Prefabs/Workshop.prefab using Guid(dca6cf054ebcb5349a8333d108c74279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b391b103577043d0e8edebb61cc234f') in 0.0141951 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000280 seconds.
+  path: Assets/Architecture textures pack/Bricks red smooth/Bricks red smooth Mat.mat
+  artifactKey: Guid(1a848aedc7780574fbf79d59dd5d42b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Bricks red smooth/Bricks red smooth Mat.mat using Guid(1a848aedc7780574fbf79d59dd5d42b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6bac8db0be482fc057441432ca2ace6') in 0.016100359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Studio Horizon/Simple Building Generic Free/Prefabs/Hospital.prefab
-  artifactKey: Guid(eb1a3f979ef5c8743a26ef5a30ec6511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio Horizon/Simple Building Generic Free/Prefabs/Hospital.prefab using Guid(eb1a3f979ef5c8743a26ef5a30ec6511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f38890642f19aef75d7fe0a78ab29fa') in 0.0083211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000292 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Blossom_Leaves_Colored.mat
+  artifactKey: Guid(0d2be323edbf9734ca33a7fad2481696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Blossom_Leaves_Colored.mat using Guid(0d2be323edbf9734ca33a7fad2481696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11de2027b28512a5c3c70fee88e5ffd') in 0.014112342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 970.241486 seconds.
-  path: Assets/Police Car & Helicopter/Prefabs/Interceptor.prefab
-  artifactKey: Guid(7be733fca5977484eab72a8eca73b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police Car & Helicopter/Prefabs/Interceptor.prefab using Guid(7be733fca5977484eab72a8eca73b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d710784b0f674fbffa86b910f04c483') in 0.1051753 seconds
+  Time since last request: 0.000782 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene/Demo_Scene_HDRP/HDRP/Environment/Border.mat
+  artifactKey: Guid(3ce2317d8694e974abbf0adc92d23475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene/Demo_Scene_HDRP/HDRP/Environment/Border.mat using Guid(3ce2317d8694e974abbf0adc92d23475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6509e26422ec7ea930fdff070be4cbe') in 0.011377641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Blossom_Leaves_Colored.mat
+  artifactKey: Guid(45f146a23eb4bcc4097757841e8e6096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Blossom_Leaves_Colored.mat using Guid(45f146a23eb4bcc4097757841e8e6096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c8da0c899c4aa6ef75e24516795b74e') in 0.560117174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_03.obj
+  artifactKey: Guid(622cd4aba51b9004bafb09b503395868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_03.obj using Guid(622cd4aba51b9004bafb09b503395868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a4eb764797ae2f1bef720fe87e6b5aa') in 0.298140923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Architecture textures pack/Bricks grey/Bricks grey Mat.mat
+  artifactKey: Guid(d4550594ec030044b960a5a62277f37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Bricks grey/Bricks grey Mat.mat using Guid(d4550594ec030044b960a5a62277f37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f0ed97e384df3d2e5a58af2b58694b6') in 0.06184033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.058 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.241 seconds
+Domain Reload Profiling: 2304ms
+	BeginReloadAssembly (419ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (186ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (454ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (918ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (763ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.6 MB). Loaded Objects now: 4129.
+Memory consumption went from 137.5 MB to 136.9 MB.
+Total: 12.997449 ms (FindLiveObjects: 1.576133 ms CreateObjectMapping: 0.845855 ms MarkObjects: 8.815188 ms  DeleteObjects: 1.759076 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 188.869308 seconds.
+  path: Assets/Architecture textures pack/Bricks weathered/Bricks weathered Mat.mat
+  artifactKey: Guid(80ccfdd2ce22dba499861932b214c731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Bricks weathered/Bricks weathered Mat.mat using Guid(80ccfdd2ce22dba499861932b214c731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48f3484dc88d7d9fcc9d53190a6d4a73') in 0.205739874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.696018 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_01.obj
+  artifactKey: Guid(efdc2f0914206bb4eb98f617f4ae452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_01.obj using Guid(efdc2f0914206bb4eb98f617f4ae452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15be37b8c7b38a71a8fc9ba04fdd2609') in 0.135367386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.670540 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_04.obj
+  artifactKey: Guid(fa75c78e130ad4c4899a874e0daff72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_04.obj using Guid(fa75c78e130ad4c4899a874e0daff72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89a64cee434c2dcc8beb274524def5ff') in 0.080045955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Bushy.mat
+  artifactKey: Guid(75db3f92b6a7eb242a9ed545bdd77dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Bushy.mat using Guid(75db3f92b6a7eb242a9ed545bdd77dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37ee87810cbc7bf66d0b1a7ea24645d0') in 0.082215633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001411 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Bushy.mat
+  artifactKey: Guid(94a8f287583034444975cc304f7b09b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Bushy.mat using Guid(94a8f287583034444975cc304f7b09b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b40d169aa68686bd397e4f84036600') in 0.081898781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Bushy.mat
+  artifactKey: Guid(846bc967cc431b044a87d153f616d580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Bushy.mat using Guid(846bc967cc431b044a87d153f616d580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d426fd346eb9a2ace9cc5623fc64b3b') in 0.026058683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.259238 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Bushy_Leaf.mat
+  artifactKey: Guid(9a2b6c9b56b9be34ea1900b2c3faadb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Bushy_Leaf.mat using Guid(9a2b6c9b56b9be34ea1900b2c3faadb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff52f942ef52c1c0da8bb755fef92818') in 0.024163445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.693979 seconds.
+  path: Assets/Concrete textures pack/pattern 01/Concrete pattern 01.mat
+  artifactKey: Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/Concrete pattern 01.mat using Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de35794eb1d89ba515f1e0e3e52d495') in 0.045031111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Concrete textures pack/pattern 02/Concrete pattern 02.mat
+  artifactKey: Guid(74c690b29deaf184eb0f56c386f5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/Concrete pattern 02.mat using Guid(74c690b29deaf184eb0f56c386f5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2765259c0186d636df9580d3ac1f10b') in 0.031860431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.010537 seconds.
+  path: Assets/Concrete textures pack/pattern 07/Concrete pattern 07.mat
+  artifactKey: Guid(b1d36282b2c17c84fb2f618cba0439a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07/Concrete pattern 07.mat using Guid(b1d36282b2c17c84fb2f618cba0439a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd71104656db44eced5217c852db9483b') in 0.037003918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434318 seconds.
+  path: Assets/Concrete textures pack/pattern 09/Concrete pattern 09.mat
+  artifactKey: Guid(90caba3031f3bb6489b26535a49cd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 09/Concrete pattern 09.mat using Guid(90caba3031f3bb6489b26535a49cd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd8c83743a21ffd536dae2265f74fb00') in 0.020993713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.924641 seconds.
+  path: Assets/Concrete textures pack/pattern 13/Concrete pattern 13.mat
+  artifactKey: Guid(0fc0bf58c56418e44b94d145ca6f5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 13/Concrete pattern 13.mat using Guid(0fc0bf58c56418e44b94d145ca6f5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd222da810608ff49fd1b0e48e79b9d87') in 0.034954716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149522 seconds.
+  path: Assets/Concrete textures pack/pattern 15/Concrete pattern 15.mat
+  artifactKey: Guid(6c096acbd65465b438d9b0a3d141cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 15/Concrete pattern 15.mat using Guid(6c096acbd65465b438d9b0a3d141cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93a067540806c649c0dddb3d25c81af9') in 0.02127913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173627 seconds.
+  path: Assets/Concrete textures pack/pattern 17/Concrete pattern 17.mat
+  artifactKey: Guid(573165ec89c0f4a488f962940dc8d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 17/Concrete pattern 17.mat using Guid(573165ec89c0f4a488f962940dc8d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7deb779a73dc04d119a89b778f9ac6e6') in 0.022217416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074230 seconds.
+  path: Assets/Concrete textures pack/pattern 19/Concrete pattern 19.mat
+  artifactKey: Guid(03df648f2a2e48843962ec5471b9e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 19/Concrete pattern 19.mat using Guid(03df648f2a2e48843962ec5471b9e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ab81be76e9167aa55683f2c17741e3') in 0.032431891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Concrete textures pack/pattern 20/Concrete pattern 20.mat
+  artifactKey: Guid(d9118644cf18d114abae307878884709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 20/Concrete pattern 20.mat using Guid(d9118644cf18d114abae307878884709) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4ca6f769d153751335f1424f553c584') in 0.020257863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Cotton.mat
+  artifactKey: Guid(c61b2c649290cce43853d391c67b7736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Cotton.mat using Guid(c61b2c649290cce43853d391c67b7736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ed71dadce34f9372c8877218b3fdb05') in 0.030720663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115014 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Cotton_Leaf.mat
+  artifactKey: Guid(6e21c31424eb18646a73b7923c46655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Cotton_Leaf.mat using Guid(6e21c31424eb18646a73b7923c46655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a6695d1264b45c70a8ec452a8d1ac2a') in 0.015886063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Cotton_Leaf.mat
+  artifactKey: Guid(c061424bb19f5af4ca365d05f8cbbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Cotton_Leaf.mat using Guid(c061424bb19f5af4ca365d05f8cbbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e6442e2a64a001fe3503292dc73a6f') in 0.02421674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214790 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Cotton_Leaf.mat
+  artifactKey: Guid(e9ca706ba8650f343a534a0e35f89f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Cotton_Leaf.mat using Guid(e9ca706ba8650f343a534a0e35f89f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cbab4e4ffcf5c638a44934c2b5347b1') in 0.165971243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Diffus_Leaf.mat
+  artifactKey: Guid(3a571ac393cff2543a7c2cc763ea41cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Diffus_Leaf.mat using Guid(3a571ac393cff2543a7c2cc763ea41cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f14f38b3e10eba265ec62c32ce7142e6') in 0.015543117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene/Demo_Scene_HDRP/HDRP/Environment/Grass.mat
+  artifactKey: Guid(ffdc98af0e13fed46b9c595ba18080f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene/Demo_Scene_HDRP/HDRP/Environment/Grass.mat using Guid(ffdc98af0e13fed46b9c595ba18080f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e04f4d56945eba4b9ee25c35ff4f9247') in 0.019870592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Diffus_Leaf.mat
+  artifactKey: Guid(bca26e104bce05b40b9515f4a65240e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Diffus_Leaf.mat using Guid(bca26e104bce05b40b9515f4a65240e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f5bc4c63c88ddc5f902295f8dd933ef') in 0.015741942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Diffus.mat
+  artifactKey: Guid(f0c1c72e10f6a5d46a6ac05dbd7336cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Diffus.mat using Guid(f0c1c72e10f6a5d46a6ac05dbd7336cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ef91cb8f6f2d734c763b3e09010b379') in 0.020191907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Diffus.mat
+  artifactKey: Guid(cf71f3049eb65f840807ef39e71778c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Diffus.mat using Guid(cf71f3049eb65f840807ef39e71778c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8ee06c3186bb8e41ada228ba20ff985') in 0.020965242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Korean_Type.mat
+  artifactKey: Guid(2f4dc27de4d152145b697c9800eb165a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Korean_Type.mat using Guid(2f4dc27de4d152145b697c9800eb165a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd40677e818d812fa059f6ffe24824f31') in 0.014191272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Korean_Type_Uncolored 1.mat
+  artifactKey: Guid(477079a922eb3124db4afacb4f8a4610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Korean_Type_Uncolored 1.mat using Guid(477079a922eb3124db4afacb4f8a4610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6ab0d84fb6b9aa7a794d4287a869b9c') in 0.016560183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Architecture textures pack/Lacquered pebbles/Lacquered pebbles Mat.mat
+  artifactKey: Guid(f1e67abef2e1c924e9484d56c6fbfebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Lacquered pebbles/Lacquered pebbles Mat.mat using Guid(f1e67abef2e1c924e9484d56c6fbfebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '391670cfd787ddfe382a36fe77c1e12a') in 0.026979415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Korean_Type_Uncolored.mat
+  artifactKey: Guid(ba32370ba4a2a564197b1064d5f00a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Korean_Type_Uncolored.mat using Guid(ba32370ba4a2a564197b1064d5f00a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50f0844611d31fce9b6610511988dedd') in 0.016157644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Benches/Objects/ElegantModernBench_Collider.fbx
+  artifactKey: Guid(4dc17c4e5a3601344a52911743db2cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/ElegantModernBench_Collider.fbx using Guid(4dc17c4e5a3601344a52911743db2cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7607a2530e123783f819045c433df008') in 0.036464068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Benches/Objects/SimpleModernBench.fbx
+  artifactKey: Guid(a4887cc4407b5db44a4963b4620913dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/SimpleModernBench.fbx using Guid(a4887cc4407b5db44a4963b4620913dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd4eec1d993d50c6cc52c6a59f00b4fb') in 0.033533545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Korean_Type.mat
+  artifactKey: Guid(f9febaf55fe31364cbbdbbdc76551794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Korean_Type.mat using Guid(f9febaf55fe31364cbbdbbdc76551794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6dc52fb8ce4a5fdd54b4ba39c5b8c67') in 0.045185126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Benches/Objects/BenchHiTech_Simple.fbx
+  artifactKey: Guid(59892c5119722674db81c14e337ecbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/BenchHiTech_Simple.fbx using Guid(59892c5119722674db81c14e337ecbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b8b446f7b54dc3b221970428fc06618') in 0.02914743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Benches/Objects/SimpleModernBench_Collider.fbx
+  artifactKey: Guid(afad2c3e45751df429d7f31e7c4973c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/SimpleModernBench_Collider.fbx using Guid(afad2c3e45751df429d7f31e7c4973c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c16894425aad81f2844353e5dc307a69') in 0.056518818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Architecture textures pack/Laminated wood/Laminated wood Mat.mat
+  artifactKey: Guid(2ef4d1414ce51664991f9f8da0c69f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Laminated wood/Laminated wood Mat.mat using Guid(2ef4d1414ce51664991f9f8da0c69f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42f5ba9e5c589d06e5dff7bbb43c7ad1') in 0.016916238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Benches/Objects/ModernLightWeightBench.fbx
+  artifactKey: Guid(e6a376326c3cf0645b79666d38ffbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/ModernLightWeightBench.fbx using Guid(e6a376326c3cf0645b79666d38ffbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53bc85b32223c661372ddf10d286cf3e') in 0.076784643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Benches/Objects/ModernLightWeightBench_Collider.fbx
+  artifactKey: Guid(64144ed1952488a469eb6ad6e0e8c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/ModernLightWeightBench_Collider.fbx using Guid(64144ed1952488a469eb6ad6e0e8c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a775e95e671be95c812fdad28f7596c') in 0.060325959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Korean_Type_Uncolored.mat
+  artifactKey: Guid(d96beb48ae0547140a134963815f734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Korean_Type_Uncolored.mat using Guid(d96beb48ae0547140a134963815f734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55357fda5615644902d55063b8819a46') in 0.030628543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Benches/Objects/BenchHiTech_Elegant.fbx
+  artifactKey: Guid(75b96650e2e66904d886d7ee1f459b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/BenchHiTech_Elegant.fbx using Guid(75b96650e2e66904d886d7ee1f459b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e229db68e12bf19df0690cde7fb0ddbb') in 0.03677331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_02.mat
+  artifactKey: Guid(f99c2f606e487bd4ba7c619b09a10f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_02.mat using Guid(f99c2f606e487bd4ba7c619b09a10f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '598ddf86a2d1866ef930544516852fed') in 0.599243292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Maple_Leaves.mat
+  artifactKey: Guid(062d746d08aa79f439c274ee9f1a1dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Maple_Leaves.mat using Guid(062d746d08aa79f439c274ee9f1a1dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae7a57bccab46f6f4cb279d9414101a6') in 0.038316117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_43.mat
+  artifactKey: Guid(0a31d93ccb7c2e04a8fae09bd5858d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_43.mat using Guid(0a31d93ccb7c2e04a8fae09bd5858d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da73d963e5afde777653857105648923') in 0.02294097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_48.mat
+  artifactKey: Guid(a7a35a310f4bf234099e346d4c063b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_48.mat using Guid(a7a35a310f4bf234099e346d4c063b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '679f812d2907f8696ff6ccb4df67d5e4') in 0.020072957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Rounded.mat
+  artifactKey: Guid(4d1b71f0b6f359e4fa4c8499d6dccd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Rounded.mat using Guid(4d1b71f0b6f359e4fa4c8499d6dccd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9861c6268d0bc3baf76aa118b62a1a2a') in 0.043134263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Rounded_Leaf.mat
+  artifactKey: Guid(4f670b585322fc94ab30bf5572ab5a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Rounded_Leaf.mat using Guid(4f670b585322fc94ab30bf5572ab5a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52e65fde3f3ccd0852bb18b54132cff5') in 0.017867233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Maple_Leaves.mat
+  artifactKey: Guid(3817269d94661ec4fa9a5ddba029e4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Maple_Leaves.mat using Guid(3817269d94661ec4fa9a5ddba029e4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6380d2eb17e1c15673be0824083b941') in 0.016662505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Simple Vehicle Pack/Models/Materials/Material #23.mat
+  artifactKey: Guid(bdd79651c2f4e1f4ab34b108fd8d866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/Materials/Material #23.mat using Guid(bdd79651c2f4e1f4ab34b108fd8d866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c76b7311736d591ebb3abf23a0a7713') in 0.023662807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_45.mat
+  artifactKey: Guid(b371f36f272eff140b69e5a5410cd2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_45.mat using Guid(b371f36f272eff140b69e5a5410cd2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c41fb1ba96a2d22bef2456057f37bf4') in 0.021170986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Architecture textures pack/Tiling green/Tiling green Mat.mat
+  artifactKey: Guid(3e601f34396a36e4781b325b8fce4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Tiling green/Tiling green Mat.mat using Guid(3e601f34396a36e4781b325b8fce4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c88c3af6715c0c077831ffa564fcd3f8') in 0.015955299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Simple Vehicle Pack/Models/Materials/No Name.mat
+  artifactKey: Guid(64cbce3e9cf6f7e4b889e606242e360c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Models/Materials/No Name.mat using Guid(64cbce3e9cf6f7e4b889e606242e360c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa7a96a683b13cbaaef5babd60acf3a5') in 0.026681774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Rounded.mat
+  artifactKey: Guid(a0dce48c18f79f440b97c33b0b3483fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Rounded.mat using Guid(a0dce48c18f79f440b97c33b0b3483fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96819c53f59aa2d15e30bbc13e0036cd') in 0.0158548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Rounded_Leaf.mat
+  artifactKey: Guid(a021a99080a026a4abbe08030230f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Rounded_Leaf.mat using Guid(a021a99080a026a4abbe08030230f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fff8a70ddfb0c8e36c079c7b3d0df5ff') in 0.013527908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat
+  artifactKey: Guid(2e501b641f5503e4d9442eb5c3f96f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat using Guid(2e501b641f5503e4d9442eb5c3f96f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea617845bfc34a37f2edf249476b297e') in 0.020450559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Structured 1.mat
+  artifactKey: Guid(0d06945680c6b9f4dbe2823e46a00762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Structured 1.mat using Guid(0d06945680c6b9f4dbe2823e46a00762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '818fd46a8170602df0883cc4319261a2') in 0.026869155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Architecture textures pack/Plywood board/Plywood board Mat.mat
+  artifactKey: Guid(f62921941a7c86c478db288ef118ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Plywood board/Plywood board Mat.mat using Guid(f62921941a7c86c478db288ef118ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66e1f26c922f89d5f3b665875f8db072') in 0.018571623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Demo/M_DEMO_YFMM_Ground.mat
+  artifactKey: Guid(7aff8cf784c3c21428b4887833479217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Demo/M_DEMO_YFMM_Ground.mat using Guid(7aff8cf784c3c21428b4887833479217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26d33918429ffa9686548f9ea3bf798f') in 0.009522631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_46.mat
+  artifactKey: Guid(4284e0aad15d6b64d86768e51640a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_46.mat using Guid(4284e0aad15d6b64d86768e51640a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '257059442cea787545fd0c44ac917aee') in 0.018781503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark/Wood_1.mat
+  artifactKey: Guid(35b3b854639f42646a3ae27230bf2cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark/Wood_1.mat using Guid(35b3b854639f42646a3ae27230bf2cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b44932f20ce7894c6a37b051ff72362') in 0.0230341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Bark/Wood_1.mat
+  artifactKey: Guid(125a7fd7bd2bc3f42b03440fcb752db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Bark/Wood_1.mat using Guid(125a7fd7bd2bc3f42b03440fcb752db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a92331f6d7b106f7a1582fd2ce14e9d') in 0.034695064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_37.mat
+  artifactKey: Guid(b944d3c9a69fd6142b438414bbddcd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_37.mat using Guid(b944d3c9a69fd6142b438414bbddcd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '927fdc47f4cd3a7f5c5366b538a69456') in 0.044579314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Police Car & Helicopter/Models/Materials/unnamed.mat
+  artifactKey: Guid(d55b9111c4ce74a8395b6dee966c2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Car & Helicopter/Models/Materials/unnamed.mat using Guid(d55b9111c4ce74a8395b6dee966c2603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e489183b9699724dbd670f0bae02ac7') in 0.010076332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark/Wood_2.mat
+  artifactKey: Guid(1b73cb116a823d747a80414b06b35ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark/Wood_2.mat using Guid(1b73cb116a823d747a80414b06b35ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd53fc7576d8a4e0a1dfca831ae91380a') in 0.054389553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Wood_3.mat
+  artifactKey: Guid(2fd0ce0000ffdd842b1131f1a98a557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Wood_3.mat using Guid(2fd0ce0000ffdd842b1131f1a98a557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a5e47fd2135e5f260ba49b5c647b3e0') in 0.015532745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Rounded.mat
+  artifactKey: Guid(8bdc5c8912990d9428afee642bb85ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Rounded.mat using Guid(8bdc5c8912990d9428afee642bb85ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ccae4b8a03bcee752cfe81126a22ac4') in 0.010892833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Architecture textures pack/Gabion wall/Gabion wall Mat.mat
+  artifactKey: Guid(0cf0d5e7bbb25a84ca981bf5730d60d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Gabion wall/Gabion wall Mat.mat using Guid(0cf0d5e7bbb25a84ca981bf5730d60d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6d7d7d5605650dbd94f35f90155b2b8') in 0.015866607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Benches/Objects/BenchHiTech_Simple_Collider.fbx
+  artifactKey: Guid(34882eaaae6d0594197d06a567513a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Objects/BenchHiTech_Simple_Collider.fbx using Guid(34882eaaae6d0594197d06a567513a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07e3bd3dd16f6e939be3696cfed9d9ae') in 0.093980098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_42.mat
+  artifactKey: Guid(9ee5736c74580c341822a916611ab4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_42.mat using Guid(9ee5736c74580c341822a916611ab4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b363ba1380f39e9a4e6cd4e9a17f9f1') in 0.036144815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Maple_Leaves 1.mat
+  artifactKey: Guid(b878ebfc2258ff043b951dcab18f2e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Maple_Leaves 1.mat using Guid(b878ebfc2258ff043b951dcab18f2e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c70aed2e3a67270cfa5a4d8bb2ad03a5') in 0.02430115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_47.mat
+  artifactKey: Guid(7a453bae213a8b04b9e9f8adb81cc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_47.mat using Guid(7a453bae213a8b04b9e9f8adb81cc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9b7c18b818b77f77a2eb943de7ed58c') in 0.023889919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Korean_Type.mat
+  artifactKey: Guid(e2b9ca9461f30d340bef455217504013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Korean_Type.mat using Guid(e2b9ca9461f30d340bef455217504013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6467b33992d9d7652c9d4390d29753f') in 0.028573072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Architecture textures pack/Tiling marble/Tiling marble Mat.mat
+  artifactKey: Guid(d163af051eb637c4b9d17bc2b788a214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Tiling marble/Tiling marble Mat.mat using Guid(d163af051eb637c4b9d17bc2b788a214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f96183e09b6a501299b1c28d6c9aee') in 0.01809221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_41.mat
+  artifactKey: Guid(c50e2eb70fabc794d9dde9a41e831644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_41.mat using Guid(c50e2eb70fabc794d9dde9a41e831644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdf298ecbd8ddab8e8a0019017a5a1b7') in 0.02039533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Star 1.mat
+  artifactKey: Guid(4de6f0a5b7544d54b998f81e22756593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Star 1.mat using Guid(4de6f0a5b7544d54b998f81e22756593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4963f4d9bd0f530bf216e4f511630ff') in 0.025260246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene/Demo_Scene_HDRP/HDRP/Environment/Water.mat
+  artifactKey: Guid(082f06a774b2f044583c17fa7f68398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene/Demo_Scene_HDRP/HDRP/Environment/Water.mat using Guid(082f06a774b2f044583c17fa7f68398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6850c5e6f8781f01c7137266310f8a08') in 0.018012117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Architecture textures pack/Plasterboard/Plasterboard Mat.mat
+  artifactKey: Guid(6f92da99e26643543abc75cc4b5f0ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Plasterboard/Plasterboard Mat.mat using Guid(6f92da99e26643543abc75cc4b5f0ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be8dc635628665eaf826a814226d84f9') in 0.017050101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_38.mat
+  artifactKey: Guid(4609707953676524ca8dbe489a6ced95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_38.mat using Guid(4609707953676524ca8dbe489a6ced95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3550abe1255eab8fd64f09feaa72fe2') in 0.025935186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Architecture textures pack/Tiling worn/Tiling worn Mat.mat
+  artifactKey: Guid(68d055be4c3b2dd478fcddaccfab2a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Architecture textures pack/Tiling worn/Tiling worn Mat.mat using Guid(68d055be4c3b2dd478fcddaccfab2a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7ddcdafbc603484d31ca7f2802aa1c') in 0.016467789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Wood_1.mat
+  artifactKey: Guid(e72f9c91089e6fd4eb9605a04cf30d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Wood_1.mat using Guid(e72f9c91089e6fd4eb9605a04cf30d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76e8d44da29d743b2ddcf4bf7b99eb7c') in 0.014806377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_40.mat
+  artifactKey: Guid(4aac98aef254ecf429643db51adb8f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_40.mat using Guid(4aac98aef254ecf429643db51adb8f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74e0b0bb24df6872d00c1c6510fe9abb') in 0.842110303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Benches/Materials/ModernLightWeightBench_mat.mat
+  artifactKey: Guid(c0e0c5c05b14b9941b21a52b2868df90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Materials/ModernLightWeightBench_mat.mat using Guid(c0e0c5c05b14b9941b21a52b2868df90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a5878bb867ae2e0559d84bdf388333f') in 0.59162829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 436.665483 seconds.
+  path: Assets/Studio Horizon/Simple Building Generic Free/FBX/School.fbx
+  artifactKey: Guid(c8ba5207d6411c14f84508e023da9e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio Horizon/Simple Building Generic Free/FBX/School.fbx using Guid(c8ba5207d6411c14f84508e023da9e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a8e77c233ff44405a7ff4a212164d42') in 1.393109538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Studio Horizon/Simple Building Generic Free/FBX/Police_Station.fbx
+  artifactKey: Guid(861e24a43738d2a4f884869d84521790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio Horizon/Simple Building Generic Free/FBX/Police_Station.fbx using Guid(861e24a43738d2a4f884869d84521790) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0254997670170a2f43576b1c83466c4a') in 0.039785009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Studio Horizon/Simple Building Generic Free/FBX/Hospital.fbx
+  artifactKey: Guid(bf248c063a81ab249aac3d6df14c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio Horizon/Simple Building Generic Free/FBX/Hospital.fbx using Guid(bf248c063a81ab249aac3d6df14c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b18bc4c463f981f4e0484cdd7e36e7') in 0.046719114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Studio Horizon/Simple Building Generic Free/FBX/Market.fbx
+  artifactKey: Guid(426427d09eae15a489510a472a49d806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio Horizon/Simple Building Generic Free/FBX/Market.fbx using Guid(426427d09eae15a489510a472a49d806) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '167255fbccf2dca88cbd24a61d66a4d9') in 0.036853772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.820248 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Bambo 1.mat
+  artifactKey: Guid(851c02f35a8043d47a7acf9fad3bafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Bambo 1.mat using Guid(851c02f35a8043d47a7acf9fad3bafe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5909dfa45e51e2b8080908c64b85fb79') in 0.84908935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.743854 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Bambo_Leaves.mat
+  artifactKey: Guid(6db38f48fd75cc64e8e9098367f2fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Bambo_Leaves.mat using Guid(6db38f48fd75cc64e8e9098367f2fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c34e4f373908fd54d3f085eb52d3bc8') in 0.129669102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080254 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Bambo_Leaves.mat
+  artifactKey: Guid(7f7dea42a57a2264aa1bc27121f14c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Bambo_Leaves.mat using Guid(7f7dea42a57a2264aa1bc27121f14c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd8e98886b83462cf9ef0b99cba49c22') in 0.030169598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.254933 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Bambo_Uncolored.mat
+  artifactKey: Guid(2c58930262f83ff4f8a7a65205c285c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Bambo_Uncolored.mat using Guid(2c58930262f83ff4f8a7a65205c285c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0c6db0a94cf0da7f8e93a1183896afe') in 0.061506128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Bambus_Uncolored.mat
+  artifactKey: Guid(1200193818a02a84d8c6252d2e49216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Bambus_Uncolored.mat using Guid(1200193818a02a84d8c6252d2e49216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05488637bd15beb55fc8db53981c4ca3') in 0.024715951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.830002 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Banwato.mat
+  artifactKey: Guid(0f5797a4e95274e4280b553cb37dbbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Banwato.mat using Guid(0f5797a4e95274e4280b553cb37dbbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e3bbe5a34e852f4bc683d73dc54ae98') in 0.042223093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056453 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Banwato_Leaf.mat
+  artifactKey: Guid(93aad8eced3eb2d45be91edf6bda79bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Banwato_Leaf.mat using Guid(93aad8eced3eb2d45be91edf6bda79bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93a1e76a3359f8b50be94b66544fedd7') in 0.012440814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Banwato_Leaf 1.mat
+  artifactKey: Guid(1b995a89e9bb6b24ab4a6af9d14cb569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Banwato_Leaf 1.mat using Guid(1b995a89e9bb6b24ab4a6af9d14cb569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b861ba89634d4257e388402ffc7a13e') in 0.013656112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945475 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Banwato_Uncolored.mat
+  artifactKey: Guid(b1db6c63380bdc34782e9183f3170f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Banwato_Uncolored.mat using Guid(b1db6c63380bdc34782e9183f3170f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6669b57981cf9500be666af5f17afede') in 0.079949763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Basic.mat
+  artifactKey: Guid(ee2033bdbfa4d294bba79cdd1e9c8939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Leaves/Basic.mat using Guid(ee2033bdbfa4d294bba79cdd1e9c8939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5c4a6a762452cb5764d9b96b575e2a4') in 0.042400604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.389114 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Basic.mat
+  artifactKey: Guid(e7e4bd7a53bd0d642acacf078f6a1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Basic.mat using Guid(e7e4bd7a53bd0d642acacf078f6a1761) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cce21c9f7b4e3c1a07dc8fc2a7387ef') in 0.062423056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Basic_Leaf.mat
+  artifactKey: Guid(b405432d6ac2934478fe4f247052a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Basic_Leaf.mat using Guid(b405432d6ac2934478fe4f247052a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af39de5b9f204409251ac420e2ceb09') in 0.026920706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.062811 seconds.
+  path: Assets/Benches/Materials/BenchCube_mat.mat
+  artifactKey: Guid(f0675b139a1a37446a4cced8659a4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Materials/BenchCube_mat.mat using Guid(f0675b139a1a37446a4cced8659a4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ffa04ffcd6b6d54ce1a43b6012dc8ce') in 0.055849074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.282325 seconds.
+  path: Assets/Benches/Materials/BenchHiTech_Simple.mat
+  artifactKey: Guid(6642a24c001acb34692bd662fbd88faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Benches/Materials/BenchHiTech_Simple.mat using Guid(6642a24c001acb34692bd662fbd88faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c1b3f3fdf31962660fd1ec076d0523') in 0.091840865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.765294 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Blosso_Colored_Leaf.mat
+  artifactKey: Guid(079058c75c7e98b4cb41af7b76307c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Blosso_Colored_Leaf.mat using Guid(079058c75c7e98b4cb41af7b76307c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77ab0fcd39436ad72863814778d30910') in 0.055415197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.239799 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Blossom.mat
+  artifactKey: Guid(6f30c5bfac4303e448f173b9e32b6524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves/Blossom.mat using Guid(6f30c5bfac4303e448f173b9e32b6524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6361ffef7960f96de0253c2375537420') in 0.040293374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.290101 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Blossom_Branch.mat
+  artifactKey: Guid(6ac4ce1e6d558174ea5564f84c14f292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Blossom_Branch.mat using Guid(6ac4ce1e6d558174ea5564f84c14f292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a96b458e39226bbe976be6071022281f') in 0.029092434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086642 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Blossom_Colored.mat
+  artifactKey: Guid(cf21a9feb5668f744bd416efba45453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves/Blossom_Colored.mat using Guid(cf21a9feb5668f744bd416efba45453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78852ba93ae6e6253e7dd293c59f4091') in 0.020519998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.927511 seconds.
+  path: Assets/YughuesFreeBushes2018/demo/Ground.mat
+  artifactKey: Guid(f8876f267f58e364e80b81cd9bcf4c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/demo/Ground.mat using Guid(f8876f267f58e364e80b81cd9bcf4c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b80d877ae66318fe7e3083b2818b78f4') in 0.75132838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.696781 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_33.mat
+  artifactKey: Guid(2d4eb4632ff89504084de124ceedf2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_33.mat using Guid(2d4eb4632ff89504084de124ceedf2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a3e74056b887faad4a53b59ee86926b') in 0.079825322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116588 seconds.
+  path: Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_35.mat
+  artifactKey: Guid(9607862bf90553342b6c7a1e3d273805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeMetalMaterials/Materials/M_YFMM_35.mat using Guid(9607862bf90553342b6c7a1e3d273805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c2a0eed6d7f25735b11cc46dccf583e') in 0.043080835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.815277 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Maple_Leaf.mat
+  artifactKey: Guid(363f30678493df64ebfaff232c98e563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Maple_Leaf.mat using Guid(363f30678493df64ebfaff232c98e563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f79330f405b9ba97034aec75f1c9dca') in 0.068312363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Maple_Leaf.mat
+  artifactKey: Guid(b2d6f653f24bbf5459814ad46b460b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Falling_Leaves/Maple_Leaf.mat using Guid(b2d6f653f24bbf5459814ad46b460b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa70df4dcf8e9867ff014dd7abb118ae') in 0.02943441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.604282 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Maple_Leaf.mat
+  artifactKey: Guid(587722ad6d4f3e3489918ab98d2f7575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Leaves/Maple_Leaf.mat using Guid(587722ad6d4f3e3489918ab98d2f7575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29862f3d56e839f564b4e2780aaca94f') in 0.09121775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.137583 seconds.
+  path: Assets/Studio Horizon/Simple Building Generic Free/Materials/Simple Building 01.mat
+  artifactKey: Guid(5a152fc5bea4c044aa9e38f3116a3bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio Horizon/Simple Building Generic Free/Materials/Simple Building 01.mat using Guid(5a152fc5bea4c044aa9e38f3116a3bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dcba724a88a0ded5545d49f3d50ad09') in 0.044025745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.310362 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Bark/Wood_4.mat
+  artifactKey: Guid(fdc1a0eb36db5424194e9f0d76714f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Bark/Wood_4.mat using Guid(fdc1a0eb36db5424194e9f0d76714f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31b2f8b7fdcdab61fd1abaab1d0cb0d9') in 0.045899775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124987 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark/Wood_5.mat
+  artifactKey: Guid(dcac3cbc83ad57c498a27727d59cb3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark/Wood_5.mat using Guid(dcac3cbc83ad57c498a27727d59cb3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97352518f575cfeba472e5c6291d2424') in 0.057156727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139310 seconds.
+  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Wood_5.mat
+  artifactKey: Guid(104910066c27e1b4b8e67e2b380b9fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Bark/Wood_5.mat using Guid(104910066c27e1b4b8e67e2b380b9fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '156b3e9343f214c9b1a7de5c70709dbe') in 0.058582877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.194 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.532 seconds
+Domain Reload Profiling: 3733ms
+	BeginReloadAssembly (793ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (293ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1227ms)
+		LoadAssemblies (1034ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (464ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (387ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (923ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.4 MB). Loaded Objects now: 4129.
+Memory consumption went from 138.0 MB to 136.6 MB.
+Total: 14.088486 ms (FindLiveObjects: 0.721656 ms CreateObjectMapping: 0.631557 ms MarkObjects: 10.513079 ms  DeleteObjects: 2.220806 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.808 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.892 seconds
+Domain Reload Profiling: 3706ms
+	BeginReloadAssembly (623ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (248ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (999ms)
+		LoadAssemblies (818ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (400ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (349ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1327ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (1089ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (171.6 KB). Loaded Objects now: 4129.
+Memory consumption went from 140.0 MB to 139.9 MB.
+Total: 18.707432 ms (FindLiveObjects: 0.712497 ms CreateObjectMapping: 0.541947 ms MarkObjects: 14.832840 ms  DeleteObjects: 2.618148 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.893 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.522 seconds
+Domain Reload Profiling: 9452ms
+	BeginReloadAssembly (1184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (54ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (467ms)
+	RebuildCommonClasses (176ms)
+	RebuildNativeTypeToScriptingClass (60ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (3341ms)
+		LoadAssemblies (1633ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2164ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2001ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (4548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2902ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (42ms)
+			BeforeProcessingInitializeOnLoad (678ms)
+			ProcessInitializeOnLoadAttributes (2054ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.6 MB). Loaded Objects now: 4129.
+Memory consumption went from 141.9 MB to 141.3 MB.
+Total: 31.469937 ms (FindLiveObjects: 5.377877 ms CreateObjectMapping: 2.315879 ms MarkObjects: 19.927713 ms  DeleteObjects: 3.846081 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2382.666219 seconds.
+  path: Assets/Car_4.prefab
+  artifactKey: Guid(558e73634b44f39458a7ea4a8a56976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car_4.prefab using Guid(558e73634b44f39458a7ea4a8a56976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca20084860705685435b160d4ab1824') in 0.460619906 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
-Received Import Request.
-  Time since last request: 193.406356 seconds.
-  path: Assets/Benches/Prefabs/BenchHiTech_Elegant_Pref.prefab
-  artifactKey: Guid(abbb0c5966d33604cbfd9968e4019283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Benches/Prefabs/BenchHiTech_Elegant_Pref.prefab using Guid(abbb0c5966d33604cbfd9968e4019283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '957220ebc56c009b34ee4a874d57af57') in 0.1704715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.109 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.280 seconds
+Domain Reload Profiling: 8396ms
+	BeginReloadAssembly (1523ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (53ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (708ms)
+	RebuildCommonClasses (487ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (1901ms)
+		LoadAssemblies (1644ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (749ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (660ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (4281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (27ms)
+			BeforeProcessingInitializeOnLoad (347ms)
+			ProcessInitializeOnLoadAttributes (2984ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.0 MB). Loaded Objects now: 4129.
+Memory consumption went from 143.8 MB to 142.8 MB.
+Total: 19.503030 ms (FindLiveObjects: 0.848545 ms CreateObjectMapping: 1.171895 ms MarkObjects: 14.809289 ms  DeleteObjects: 2.670467 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.795 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.928 seconds
+Domain Reload Profiling: 3727ms
+	BeginReloadAssembly (618ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (275ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (986ms)
+		LoadAssemblies (695ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (478ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (417ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (1067ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (248.8 KB). Loaded Objects now: 4129.
+Memory consumption went from 145.7 MB to 145.5 MB.
+Total: 26.607598 ms (FindLiveObjects: 0.697026 ms CreateObjectMapping: 0.803375 ms MarkObjects: 21.134341 ms  DeleteObjects: 3.970880 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.320 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.727 seconds
+Domain Reload Profiling: 7052ms
+	BeginReloadAssembly (1566ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (75ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (592ms)
+	RebuildCommonClasses (176ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (211ms)
+	LoadAllAssembliesAndSetupDomain (2322ms)
+		LoadAssemblies (1984ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (924ms)
+			TypeCache.Refresh (71ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (810ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1926ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (365ms)
+			ProcessInitializeOnLoadAttributes (1449ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.7 MB). Loaded Objects now: 4129.
+Memory consumption went from 147.6 MB to 147.0 MB.
+Total: 24.385759 ms (FindLiveObjects: 1.492502 ms CreateObjectMapping: 0.809142 ms MarkObjects: 18.179724 ms  DeleteObjects: 3.900935 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Benches/Prefabs/SimpleModernBench_Pref.prefab
-  artifactKey: Guid(73b622173606c244a8cc9fd46a2802cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Benches/Prefabs/SimpleModernBench_Pref.prefab using Guid(73b622173606c244a8cc9fd46a2802cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '293edd2efe4c54afd409a92378e1d5cf') in 0.0782557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+  Time since last request: 617.860164 seconds.
+  path: Assets/Scripts/CarMovement.cs
+  artifactKey: Guid(3205d9d674f4c4fe3b0cd452c4e41df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarMovement.cs using Guid(3205d9d674f4c4fe3b0cd452c4e41df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c71328e2fa5b57ac636f805103680e7') in 0.010180195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Benches/Prefabs/ElegantModernBench_Pref.prefab
-  artifactKey: Guid(b0221330e017d5e4d9479229c4e560e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Benches/Prefabs/ElegantModernBench_Pref.prefab using Guid(b0221330e017d5e4d9479229c4e560e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ef96cd4b4fbebe439a425ec95bb4f53') in 0.023984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.821 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.220 seconds
+Domain Reload Profiling: 5047ms
+	BeginReloadAssembly (716ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (245ms)
+	RebuildCommonClasses (204ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1776ms)
+		LoadAssemblies (1239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (860ms)
+			TypeCache.Refresh (47ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (704ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2222ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (1243ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.1 MB). Loaded Objects now: 4129.
+Memory consumption went from 149.5 MB to 148.4 MB.
+Total: 13.224201 ms (FindLiveObjects: 0.629375 ms CreateObjectMapping: 0.611691 ms MarkObjects: 10.084768 ms  DeleteObjects: 1.896576 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.976 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.021 seconds
+Domain Reload Profiling: 4002ms
+	BeginReloadAssembly (675ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (307ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1104ms)
+		LoadAssemblies (822ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (497ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (419ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2023ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (1136ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.6 MB). Loaded Objects now: 4129.
+Memory consumption went from 151.4 MB to 150.7 MB.
+Total: 25.458201 ms (FindLiveObjects: 0.855010 ms CreateObjectMapping: 1.028078 ms MarkObjects: 21.659756 ms  DeleteObjects: 1.913024 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.142 seconds
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.023 seconds
+Domain Reload Profiling: 8173ms
+	BeginReloadAssembly (1470ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (76ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (524ms)
+	RebuildCommonClasses (220ms)
+	RebuildNativeTypeToScriptingClass (97ms)
+	initialDomainReloadingComplete (182ms)
+	LoadAllAssembliesAndSetupDomain (2178ms)
+		LoadAssemblies (1771ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1009ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (870ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (4026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3026ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (33ms)
+			BeforeProcessingInitializeOnLoad (404ms)
+			ProcessInitializeOnLoadAttributes (2461ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (2.5 MB). Loaded Objects now: 4129.
+Memory consumption went from 153.3 MB to 150.8 MB.
+Total: 75.686490 ms (FindLiveObjects: 1.546083 ms CreateObjectMapping: 1.603441 ms MarkObjects: 57.932200 ms  DeleteObjects: 14.600933 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.242 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.301 seconds
+Domain Reload Profiling: 6554ms
+	BeginReloadAssembly (1132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (68ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (392ms)
+	RebuildCommonClasses (165ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (1742ms)
+		LoadAssemblies (1466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (697ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (614ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3302ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2444ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (284ms)
+			ProcessInitializeOnLoadAttributes (1993ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.3 MB). Loaded Objects now: 4129.
+Memory consumption went from 155.2 MB to 153.9 MB.
+Total: 29.121016 ms (FindLiveObjects: 1.085928 ms CreateObjectMapping: 4.586433 ms MarkObjects: 18.198620 ms  DeleteObjects: 5.247816 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.326 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.483 seconds
+Domain Reload Profiling: 6818ms
+	BeginReloadAssembly (1454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (82ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (561ms)
+	RebuildCommonClasses (166ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (1533ms)
+		LoadAssemblies (1443ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (666ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (551ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (3485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (38ms)
+			BeforeProcessingInitializeOnLoad (408ms)
+			ProcessInitializeOnLoadAttributes (1942ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.1 MB). Loaded Objects now: 4129.
+Memory consumption went from 157.1 MB to 156.0 MB.
+Total: 18.136800 ms (FindLiveObjects: 0.831340 ms CreateObjectMapping: 0.770856 ms MarkObjects: 14.104743 ms  DeleteObjects: 2.427582 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.737 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.869 seconds
+Domain Reload Profiling: 3609ms
+	BeginReloadAssembly (521ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (177ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1008ms)
+		LoadAssemblies (899ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (357ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (321ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (1062ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.8 MB). Loaded Objects now: 4129.
+Memory consumption went from 159.0 MB to 158.2 MB.
+Total: 15.515834 ms (FindLiveObjects: 1.420728 ms CreateObjectMapping: 0.697285 ms MarkObjects: 10.247841 ms  DeleteObjects: 3.147922 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.200 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.968 seconds
+Domain Reload Profiling: 4173ms
+	BeginReloadAssembly (844ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (353ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1147ms)
+		LoadAssemblies (1061ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (397ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (347ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1969ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (1138ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.9 MB). Loaded Objects now: 4129.
+Memory consumption went from 161.0 MB to 160.1 MB.
+Total: 14.253298 ms (FindLiveObjects: 0.784643 ms CreateObjectMapping: 0.891816 ms MarkObjects: 10.018488 ms  DeleteObjects: 2.556618 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.549 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.132 seconds
+Domain Reload Profiling: 3686ms
+	BeginReloadAssembly (404ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (939ms)
+		LoadAssemblies (698ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (396ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (355ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2133ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (1187ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.9 MB). Loaded Objects now: 4129.
+Memory consumption went from 162.9 MB to 162.0 MB.
+Total: 10.144314 ms (FindLiveObjects: 0.499510 ms CreateObjectMapping: 0.543372 ms MarkObjects: 7.622008 ms  DeleteObjects: 1.478003 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.522 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.775 seconds
+Domain Reload Profiling: 7304ms
+	BeginReloadAssembly (1310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (55ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (509ms)
+	RebuildCommonClasses (212ms)
+	RebuildNativeTypeToScriptingClass (70ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (1792ms)
+		LoadAssemblies (1542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (765ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (680ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (24ms)
+			BeforeProcessingInitializeOnLoad (327ms)
+			ProcessInitializeOnLoadAttributes (2157ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.2 MB). Loaded Objects now: 4129.
+Memory consumption went from 166.7 MB to 165.5 MB.
+Total: 27.991036 ms (FindLiveObjects: 2.396111 ms CreateObjectMapping: 1.466913 ms MarkObjects: 20.540766 ms  DeleteObjects: 3.584262 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.599 seconds
+Refreshing native plugins compatible for Editor in 5.49 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.048 seconds
+Domain Reload Profiling: 7652ms
+	BeginReloadAssembly (982ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (283ms)
+	RebuildCommonClasses (227ms)
+	RebuildNativeTypeToScriptingClass (92ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (2188ms)
+		LoadAssemblies (1831ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (799ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (715ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (4050ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (119ms)
+			BeforeProcessingInitializeOnLoad (332ms)
+			ProcessInitializeOnLoadAttributes (1965ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.1 MB). Loaded Objects now: 4129.
+Memory consumption went from 168.6 MB to 167.5 MB.
+Total: 15.404228 ms (FindLiveObjects: 0.653367 ms CreateObjectMapping: 0.836445 ms MarkObjects: 11.279632 ms  DeleteObjects: 2.632961 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.318 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.069 seconds
+Domain Reload Profiling: 4393ms
+	BeginReloadAssembly (861ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (318ms)
+	RebuildCommonClasses (131ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (1188ms)
+		LoadAssemblies (1078ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (469ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (415ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2071ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (1192ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.0 MB). Loaded Objects now: 4129.
+Memory consumption went from 170.6 MB to 169.5 MB.
+Total: 13.970334 ms (FindLiveObjects: 0.878660 ms CreateObjectMapping: 1.089858 ms MarkObjects: 10.005613 ms  DeleteObjects: 1.994104 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.071 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.342 seconds
+Domain Reload Profiling: 4417ms
+	BeginReloadAssembly (530ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (216ms)
+	RebuildCommonClasses (136ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1295ms)
+		LoadAssemblies (1069ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (435ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (392ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1771ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (1476ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.0 MB). Loaded Objects now: 4129.
+Memory consumption went from 172.5 MB to 171.5 MB.
+Total: 9.791541 ms (FindLiveObjects: 0.579969 ms CreateObjectMapping: 0.494943 ms MarkObjects: 7.361450 ms  DeleteObjects: 1.353256 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.045 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.174 seconds
+Domain Reload Profiling: 4225ms
+	BeginReloadAssembly (472ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (174ms)
+	RebuildCommonClasses (146ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1303ms)
+		LoadAssemblies (965ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (531ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (456ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2175ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (1272ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (1.1 MB). Loaded Objects now: 4129.
+Memory consumption went from 174.4 MB to 173.3 MB.
+Total: 15.562074 ms (FindLiveObjects: 1.171745 ms CreateObjectMapping: 0.771828 ms MarkObjects: 10.123703 ms  DeleteObjects: 3.492228 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.035 seconds
+Refreshing native plugins compatible for Editor in 7.27 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.376 seconds
+Domain Reload Profiling: 4415ms
+	BeginReloadAssembly (549ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (185ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1254ms)
+		LoadAssemblies (1012ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (496ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (431ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (27ms)
+			BeforeProcessingInitializeOnLoad (283ms)
+			ProcessInitializeOnLoadAttributes (1087ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (458.9 KB). Loaded Objects now: 4129.
+Memory consumption went from 176.3 MB to 175.9 MB.
+Total: 20.171923 ms (FindLiveObjects: 0.962645 ms CreateObjectMapping: 1.592464 ms MarkObjects: 14.694488 ms  DeleteObjects: 2.920195 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.184 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.991 seconds
+Domain Reload Profiling: 5185ms
+	BeginReloadAssembly (571ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (224ms)
+	RebuildCommonClasses (215ms)
+	RebuildNativeTypeToScriptingClass (67ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1262ms)
+		LoadAssemblies (921ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (563ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (497ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (275ms)
+			ProcessInitializeOnLoadAttributes (1883ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (171.6 KB). Loaded Objects now: 4129.
+Memory consumption went from 178.3 MB to 178.1 MB.
+Total: 19.252293 ms (FindLiveObjects: 0.710721 ms CreateObjectMapping: 0.720789 ms MarkObjects: 14.659933 ms  DeleteObjects: 3.158387 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/omarariaszepeda/Documents/GitHub/Equipo4_Multiagentes/ModeladoCiudad/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.681 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.218 seconds
+Domain Reload Profiling: 3903ms
+	BeginReloadAssembly (507ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (190ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (986ms)
+		LoadAssemblies (834ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (339ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (1405ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3495 unused Assets / (0.7 MB). Loaded Objects now: 4129.
+Memory consumption went from 180.1 MB to 179.5 MB.
+Total: 13.204801 ms (FindLiveObjects: 0.590583 ms CreateObjectMapping: 0.590672 ms MarkObjects: 9.675213 ms  DeleteObjects: 2.346558 ms)
+
+Prepare: number of updated asset objects reloaded= 0

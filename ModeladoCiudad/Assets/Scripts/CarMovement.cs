@@ -1,12 +1,12 @@
 using UnityEngine;
-
+using System.Collections;
 public class CarMovement : MonoBehaviour
 {
     // Variables públicas para almacenar la información del carro
     public string direction;
     public string initialPosition;
     public string movementSequence;
-
+private bool isMoving = false; // Bandera para indicar si el carro está en movimiento
     public float moveSpeed = 1f; // Velocidad de movimiento del carro en metros por segundo
     //private string movementSequence; // Secuencia de movimientos del carro
     private int currentIndex = 0; // Índice actual en la secuencia
@@ -32,34 +32,52 @@ public class CarMovement : MonoBehaviour
 
     public void Update()
     {
-        if (movementSequence != null && currentIndex < movementSequence.Length)
+        if (movementSequence != null && currentIndex < movementSequence.Length && !isMoving)
         {
-            elapsedTime += Time.deltaTime;
+            char move = movementSequence[currentIndex];
 
-            // Verificar si ha pasado el tiempo suficiente para avanzar
-            if (elapsedTime >= 1f) // Si ha pasado 1 segundo
+            // Mover el carro según el próximo movimiento
+            if (move == '1')
             {
-                char move = movementSequence[currentIndex];
-
-                // Mover el carro según el próximo movimiento
-                if (move == '1')
-                {
-                    transform.Translate(Vector3.forward * moveSpeed);
-                }
-
-                if (move == '0')
-                {
-                    transform.Translate(Vector3.forward * 0);
-                }
-
-
-
-
-                // Restablecer el tiempo acumulado y avanzar al siguiente movimiento
-                elapsedTime = 0f;
-                currentIndex++;
+                MoveCarForward();
             }
+            else if (move == '0')
+            {
+                StartCoroutine(IdleForOneSecond());
+            }
+
+            // Avanzar al siguiente movimiento
+            currentIndex++;
         }
     }
-}
 
+    void MoveCarForward()
+    {
+        StartCoroutine(MoveToPosition(transform.position + transform.forward, 1f / moveSpeed));
+    }
+
+    IEnumerator IdleForOneSecond()
+    {
+        isMoving = true;
+        yield return new WaitForSeconds(1f);
+        isMoving = false;
+    }
+
+    IEnumerator MoveToPosition(Vector3 targetPosition, float timeToMove)
+    {
+        isMoving = true;
+        float elapsedTime = 0f;
+        Vector3 startingPos = transform.position;
+
+        while (elapsedTime < timeToMove)
+        {
+            transform.position = Vector3.Lerp(startingPos, targetPosition, elapsedTime / timeToMove);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = targetPosition;
+        isMoving = false;
+    }
+
+}

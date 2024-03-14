@@ -61,7 +61,7 @@ void networkCode()
     // host running the application.
     //Create EndPoint
 	 IPAddress IPAdr = IPAddress.Parse("127.0.0.1"); // Dirección IP
-	 IPEndPoint localEndPoint = new IPEndPoint(IPAdr, 1106);
+	 IPEndPoint localEndPoint = new IPEndPoint(IPAdr, 1104);
 
     // Create a TCP/IP socket.
     listener = new Socket(AddressFamily.InterNetwork,SocketType.Stream, ProtocolType.Tcp);
